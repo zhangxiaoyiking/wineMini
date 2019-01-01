@@ -1,0 +1,17 @@
+<view class='head'>
+    <view class='head-search'>
+        <view class='ico-search'></view>
+        <input type='text'></input>
+    </view>
+</view>
+
+<view class='ad'>
+    <view></view>
+</view>
+
+<view class='page-title'>讲师介绍</view>
+
+<view class='page-title'>线下课程</view>
+<view>
+    
+</view>

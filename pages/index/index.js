@@ -1,8 +1,7 @@
 
 const app = getApp()
-
 Page({
-  data: {
+  data:{
   },
   onLoad () {
    
