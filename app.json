@@ -1,15 +1,47 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/course/course",
-    "pages/courseOnline/courseOnline",
-    "pages/member/member",
-    "pages/mall/mall"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/course/course",
+        "pages/courseOnline/courseOnline",
+        "pages/member/member",
+        "pages/mall/mall"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2E2E2E",
+        "navigationBarTitleText": "品乐侍酒",
+        "navigationBarTextStyle": "withe"
+    },
+    "tabBar": {
+        "background":"#F8F8F8",
+        "selectedColor":"#AF1654",
+        "borderStyle":"#F8F8F8",
+        "color":"#666666",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath":"images/class.png",
+                "selectedIconPath":"images/class-sel.png",
+                "text": "求学"
+            },
+            {
+                "pagePath": "pages/courseOnline/courseOnline",
+                "iconPath": "images/online.png",
+                "selectedIconPath": "images/online-sel.png",
+                "text": "网课"
+            },
+            {
+                "pagePath": "pages/mall/mall",
+                "iconPath": "images/mall.png",
+                "selectedIconPath": "images/mall-sel.png",
+                "text": "严选"
+            },
+            {
+                "pagePath": "pages/member/member",
+                "iconPath": "images/member.png",
+                "selectedIconPath": "images/member-sel.png",
+                "text": "我的"
+            }
+        ]
+    }
 }
