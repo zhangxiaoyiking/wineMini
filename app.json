@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/course/course",
+    "pages/courseOnline/courseOnline",
+    "pages/member/member",
+    "pages/mall/mall"
   ],
   "window":{
     "backgroundTextStyle":"light",
