@@ -1,1 +1,14 @@
 /* pages/courseOnline/courseOnline.wxss */
+
+.banners {
+    margin: 30rpx;
+
+    height: 368rpx;
+    border-radius: 10rpx;
+    overflow: hidden;
+}
+
+.banners img {
+    width: 690rpx;
+    height: 368rpx;
+}

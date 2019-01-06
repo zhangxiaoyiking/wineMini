@@ -1,2 +1,13 @@
-<!--pages/member/member.wxml-->
-<text>pages/member/member.wxml</text>
+<view class='member f-c-sb'>
+    <view class='f-c-c'>
+            <image class='user-img' src='../../images/b1.jpg'></image>
+        <view>
+            <view class='user-name'>SUNNY</view>
+            <view>和我一起品乐酒</view>
+        </view>
+    </view>
+    <view class='user-vip'>
+        <image src='../../images/vips.png'></image>
+        VIP LV3 
+    </view>
+</view>

@@ -188,13 +188,15 @@ page {
     align-items: center;
     justify-content: center;
     font-size: 32rpx;
-    margin:40rpx 0;
+    margin:40rpx 30rpx;
 }
 
 .tabs>view {
-    padding: 10rpx 50rpx;
+    padding: 10rpx 0;
+    width:50%;
     line-height: 70rpx;
     background: #f4f4f4;
+    text-align:center;
 }
 
 .tabs>view:first-child {

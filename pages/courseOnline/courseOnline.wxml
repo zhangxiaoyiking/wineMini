@@ -1,10 +1,10 @@
 <view class='banner'>
     <swiper class='banners' bindchange='bannerChange'>
         <swiper-item>
-            <image src='../../images/b1.jpg'></image>
+            <image mode='' src='../../images/bannerst.jpg'></image>
         </swiper-item>
         <swiper-item>
-            <image src='../../images/b1.jpg'></image>
+            <image src='../../images/bannerst.jpg'></image>
         </swiper-item>
     </swiper>
     <view class='banner-dot'>
