@@ -142,7 +142,7 @@
     color:#af1654;
 }
 .online-item {
-    margin:30rpx;
+    margin:50rpx 30rpx;
 }
 .online-item image{
     width:230rpx;
