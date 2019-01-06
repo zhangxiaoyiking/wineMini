@@ -1,1 +1,237 @@
 /* //index.wxss */
+
+.head-search {
+    display: flex;
+    align-items: center;
+    margin: 10rpx 30rpx;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.head-search input {
+    padding: 5rpx 0;
+    font-size: 26rpx;
+}
+
+.head-search .ico {
+    width: 60rpx;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serach-placeholder {
+    color: #666;
+    font-size: 26rpx;
+}
+.banner{
+    width:100%;
+    height:540rpx;
+}
+.banner-dot{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:30rpx;
+}
+.banner-dot>view{
+    display: flex;
+    font-size:0;
+    width:14rpx;
+    height:14rpx;
+    background:#eee;
+    border-radius:90px;
+    margin:0 2px;
+    transition:.4s;
+}
+.banner-dot>view.active{
+    width:30rpx;
+    background:#af1654;
+}
+.banner image{
+    width:100%;
+    height:540rpx;
+}
+.page-title {
+    position: relative;
+    margin: 40rpx 30rpx;
+    font-size: 34rpx;
+    line-height: 34rpx;
+    padding-left: 20rpx;
+    color: #333;
+}
+
+.page-title::after {
+    content: '';
+    display: block;
+    top: 0;
+    bottom: 0;
+    color: #444;
+    background: #af1654;
+    width: 8rpx;
+    border-radius: 8rpx;
+    position: absolute;
+    left: 0;
+}
+
+.ad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40rpx 30rpx;
+}
+
+.ad image {
+    width: 215rpx;
+    height: 130rpx;
+}
+
+.teacher-item {
+    height:900rpx;
+    margin: 0 20rpx;
+    border-radius: 10rpx;
+    padding:30rpx;
+    width:80%;
+    background-color: #fff;
+    box-shadow: 0px 0px 30rpx 0px rgba(0, 0, 0, 0.1);
+}
+.teacher-i{
+    flex:1;
+}
+.teacher-img {
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 90px;
+    margin-right:20rpx;
+}
+
+.teacher-info {
+    display: flex;
+    background:#eee;
+    padding:30rpx;
+    border-radius:18rpx;
+    flex-flow:row;
+}
+
+.teacher-intro {
+    font-size: 24rpx;
+    color: #888;
+    margin-top:14rpx;
+}
+
+.tags{
+    display: flex;
+}
+.teacher-tag{
+    font-size:26rpx;
+    margin-right:30rpx;
+}
+
+.teacher-level{
+    font-size:30rpx;
+    color:#333;
+}
+.teacher-name{
+     font-size:32rpx;
+    color:#af1654;
+}
+.online-item {
+    margin:30rpx;
+}
+.online-item image{
+    width:230rpx;
+    height: 180rpx;
+    border-radius:8rpx;
+    margin-right:30rpx;
+}
+.online-title{
+    font-size:30rpx;
+    color:#333;
+}
+.online-intro{
+    color:#666;
+    font-size:26rpx;
+    margin-top:14rpx;
+}
+.online-price{
+    color:#af1654;
+    font-size:14px;
+}
+.online-info{
+    height:180rpx;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.more{
+    font-size:26rpx;
+    color:#666;
+}
+
+.teacher-swiper{
+    height:900rpx;
+}
+
+.teacher-title{
+    color:#333;
+    font-size:30rpx;
+    margin:20rpx 0;
+}
+.teacher-advice{
+    padding:20rpx 0;
+}
+.teacher-advice>view{
+    font-size:26rpx;
+    margin:10rpx 0;
+}
+.tag{
+    background:#af1654;
+    color:#fff;
+    border-radius:6rpx;
+    margin:20rpx 0;
+    font-size:24rpx;
+    text-align:center;
+    padding:10rpx 0;
+    width:180rpx;
+}
+
+.t{
+    margin:0 30rpx;
+    padding-bottom:50rpx;
+}
+.t swiper-item{
+    padding-bottom:400rpx;
+}
+.t-img{
+    width: 460rpx;
+    height:260rpx;
+}
+.t-img image{
+    width: 460rpx;
+    height:260rpx;
+}
+.t-cont {
+  border-radius: 10rpx;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  width: 460rpx;
+  height: 384rpx;
+  overflow:hidden;
+}
+.t-title{
+    font-size:28rpx;
+}
+.t-container{
+    padding:20rpx;
+}
+.t-info{
+    font-size:22rpx;
+    color:#999;
+}

@@ -12,7 +12,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.4.2",
+	"libVersion": "2.4.3",
 	"appid": "wx651b6578a4b4a28b",
 	"projectname": "wineMini",
 	"debugOptions": {

@@ -1,17 +1,183 @@
 <view class='head'>
-    <view class='head-search'>
-        <view class='ico-search'></view>
-        <input type='text'></input>
+    <view class='head-search' style='top:{{isPX?"88px":"64px"}}'>
+        <view class='ico ico-search'></view>
+        <input type='text' placeholder-class='serach-placeholder' placeholder='侍酒师p培训课程'></input>
+    </view>
+
+    <swiper class='banner' bindchange='bannerChange'>
+        <block wx:for="{{banner}}" wx:key="indexBanner">
+            <swiper-item>
+                <image src="{{item.imgUrl}}" class="slide-image" width="640" height="150" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class='banner-dot'>
+        <view wx:for="{{banner}}" wx:key="bannerDot" class='{{currentBanner == index ? "active":""}}'>
+            {{index}}
+        </view>
     </view>
 </view>
 
 <view class='ad'>
-    <view></view>
+    <view>
+        <image src='../../images/s1.jpg'></image>
+    </view>
+    <view>
+        <image src='../../images/s2.jpg'></image>
+    </view>
+    <view>
+        <image src='../../images/s3.jpg'></image>
+    </view>
 </view>
 
 <view class='page-title'>讲师介绍</view>
 
-<view class='page-title'>线下课程</view>
 <view>
-    
+    <swiper class='t' next-margin="50" circular="true">
+        <swiper-item>
+            <view class="t-cont">
+                <view class='t-img'>
+                    <image src='../../images/b1.jpg'></image>
+                </view>
+                <view class='t-container'>
+                    <view class='t-title'>北京柏悦酒店侍酒师：李美玉</view>
+                    <view class='t-info'>专业从事侍酒师8年</view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="t-cont">
+                <view class='t-img'>
+                    <image src='../../images/b1.jpg'></image>
+                </view>
+                <view class='t-container'>
+                    <view class='t-title'>北京柏悦酒店侍酒师：李美玉</view>
+                    <view class='t-info'>专业从事侍酒师8年</view>
+                </view>
+            </view>
+        </swiper-item>
+        <swiper-item>
+            <view class="t-cont">
+                <view class='t-img'>
+                    <image src='../../images/b1.jpg'></image>
+                </view>
+                <view class='t-container'>
+                    <view class='t-title'>北京柏悦酒店侍酒师：李美玉</view>
+                    <view class='t-info'>专业从事侍酒师8年</view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>
+<view class='page-title f-c-sb'>职业梦想导图
+    <view class='more'>更多</view>
+</view>
+<view class='teacher'>
+    <swiper class='teacher-swiper' next-margin="50" circular="true">
+        <swiper-item wx:for="{{teacher}}" wx:key="teachers">
+            <view class='teacher-item'>
+                <view class='teacher-info'>
+                    <image class='teacher-img' src='{{item.img}}'></image>
+                    <view class='teacher-i'>
+                        <view class='teacher-name'> {{item.name}}</view>
+                        <view class='teacher-level'>{{item.level}}</view>
+                        <view class='teacher-intro'> {{item.intro}}</view>
+                    </view>
+                </view>
+                <view class='teacher-title'>需要掌握的技能</view>
+                <view class='tags'>
+                    <view class='teacher-tag'>
+                        <view class='tag-title'>主修：</view>
+                        <view class='tag' wx:for="{{item.tags.main}}" wx:key="main" wx:for-item="mitem">
+                            {{mitem}}
+                        </view>
+                    </view>
+                    <view class='teacher-tag'>
+                        <view class='tag-title'>辅修：</view>
+                        <view class='tag' wx:for="{{item.tags.auxiliary}}" wx:key="auxiliary" wx:for-item="aitem">
+                            {{aitem}}
+                        </view>
+                    </view>
+
+                </view>
+                <view class='teacher-title'>需要掌握的技能</view>
+                <view class='teacher-advice tline'>
+                    <view wx:for="{{item.advice}}" wx:key="advice" wx:for-item="aitem">
+                        {{aitem}}
+                    </view>
+                </view>
+            </view>
+        </swiper-item>
+    </swiper>
+</view>
+<view class='page-title'>线下课程</view>
+<view class='online'>
+    <view class='online-item f-c-c'>
+        <image src='../../images/b1.jpg'></image>
+        <view class='online-info'>
+            <view>
+                <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
+                <view class='online-intro'>专为餐饮人士打造</view>
+            </view>
+            <view class='online-price f-c-sb'>
+                <view>
+                    <text class='price'>¥2790</text>
+                    <text class='price-through '> ¥2790</text>
+                </view>
+                <view class='button'>我要学习</view>
+            </view>
+        </view>
+    </view>
+
+        <view class='online-item f-c-c'>
+        <image src='../../images/b1.jpg'></image>
+        <view class='online-info'>
+            <view>
+                <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
+                <view class='online-intro'>专为餐饮人士打造</view>
+            </view>
+            <view class='online-price f-c-sb'>
+                <view>
+                    <text class='price'>¥2790</text>
+                    <text class='price-through '> ¥2790</text>
+                </view>
+                <view class='button'>我要学习</view>
+            </view>
+        </view>
+    </view>
+
+        <view class='online-item f-c-c'>
+        <image src='../../images/b1.jpg'></image>
+        <view class='online-info'>
+            <view>
+                <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
+                <view class='online-intro'>专为餐饮人士打造</view>
+            </view>
+            <view class='online-price f-c-sb'>
+                <view>
+                    <text class='price'>¥2790</text>
+                    <text class='price-through '> ¥2790</text>
+                </view>
+                <view class='button'>我要学习</view>
+            </view>
+        </view>
+    </view>
+
+        <view class='online-item f-c-c'>
+        <image src='../../images/b1.jpg'></image>
+        <view class='online-info'>
+            <view>
+                <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
+                <view class='online-intro'>专为餐饮人士打造</view>
+            </view>
+            <view class='online-price f-c-sb'>
+                <view>
+                    <text class='price'>¥2790</text>
+                    <text class='price-through '> ¥2790</text>
+                </view>
+                <view class='button'>我要学习</view>
+            </view>
+        </view>
+    </view>
+
 </view>

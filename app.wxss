@@ -1,10 +1,54 @@
 /**app.wxss**/
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+@import "icon.wxss";
+page{
+    box-sizing:border-box;
+}
+.f-c-c{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.f-c-sb{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.price{
+    color:#AF1654;
+    font-size:30rpx;
+}
+.price-through{
+    color:#666;
+    font-size:30rpx;
+    text-decoration:line-through;
+}
+.button{
+    color:#fff;
+  background-image:linear-gradient( 180deg, rgb(170,33,67) 0%, rgb(133,18,39) 100%);
+  box-shadow: 0px 6px 25px 0px rgba(51, 0, 21, 0.2);
+    border-radius:90px;
+    width:150rpx;
+    height:50rpx;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.tline,.bline,.rline{
+    position:relative;
+}
+.tline::after,.bline::after,.rline::after,.lline::after{
+    content: '';
+    display: block;
+    height:1rpx;
+    background:#e5e5e5;
+    position:absolute;
+    transform: scale(.5);
+}
+
+.tline::after{
+    left:-50%;
+    right:-50%;
+    top:0;
+}
