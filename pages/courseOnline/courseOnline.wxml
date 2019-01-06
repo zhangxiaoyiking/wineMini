@@ -36,13 +36,16 @@
 
                 <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
                 <view class='online-intro'>专为餐饮人士打造</view>
+
+                <view class='online-view'>90万</view>
+
             </view>
+
             <view class='online-price f-c-sb'>
                 <view>
                     <text class='price'>¥2790</text>
-                    <text class='price-through '> ¥2790</text>
                 </view>
-                <view class='button'>立即替换</view>
+                <view class='button'>立即观看</view>
             </view>
         </view>
     </view>
@@ -57,13 +60,14 @@
 
                 <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
                 <view class='online-intro'>专为餐饮人士打造</view>
+                 <view class='online-view'>90万</view>
             </view>
             <view class='online-price f-c-sb'>
                 <view>
                     <text class='price'>¥2790</text>
                     <text class='price-through '> ¥2790</text>
                 </view>
-                <view class='button'>立即替换</view>
+                <view class='button'>立即观看</view>
             </view>
         </view>
     </view>
@@ -77,13 +81,13 @@
             <view>
                 <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
                 <view class='online-intro'>专为餐饮人士打造</view>
+                 <view class='online-view'>90万</view>
             </view>
             <view class='online-price f-c-sb'>
                 <view>
                     <text class='price'>¥2790</text>
-                    <text class='price-through '> ¥2790</text>
                 </view>
-                <view class='button'>立即替换</view>
+                <view class='button'>立即观看</view>
             </view>
         </view>
     </view>
