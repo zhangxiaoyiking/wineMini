@@ -49,18 +49,4 @@
   content: "\e909";
 }
 
-.more{
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
-}
-.more::after{
-    content: '';
-    border:3rpx solid #ddd;
-    border-left:none;
-    border-bottom:none;
-    display: block;
-    width:14rpx;
-    height:14rpx;
-    transform: rotate(45deg);
-}
+

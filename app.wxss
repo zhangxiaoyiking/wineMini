@@ -1,54 +1,197 @@
 /**app.wxss**/
 @import "icon.wxss";
-page{
-    box-sizing:border-box;
-}
-.f-c-c{
-    display: flex;
-    align-items:center;
-    justify-content:center;
-}
-.f-c-sb{
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
+
+page {
+    box-sizing: border-box;
 }
 
-.price{
-    color:#AF1654;
-    font-size:30rpx;
-}
-.price-through{
-    color:#666;
-    font-size:30rpx;
-    text-decoration:line-through;
-}
-.button{
-    color:#fff;
-  background-image:linear-gradient( 180deg, rgb(170,33,67) 0%, rgb(133,18,39) 100%);
-  box-shadow: 0px 6px 25px 0px rgba(51, 0, 21, 0.2);
-    border-radius:90px;
-    width:150rpx;
-    height:50rpx;
+.f-c-c {
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
 }
 
-.tline,.bline,.rline{
-    position:relative;
+.f-c-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.tline::after,.bline::after,.rline::after,.lline::after{
+
+.price {
+    color: #af1654;
+    font-size: 30rpx;
+}
+
+.price-through {
+    color: #666;
+    font-size: 30rpx;
+    text-decoration: line-through;
+}
+
+.button {
+    color: #fff;
+    background-image: linear-gradient(180deg, rgb(170, 33, 67) 0%, rgb(133, 18, 39) 100%);
+    box-shadow: 0px 6px 25px 0px rgba(51, 0, 21, 0.2);
+    border-radius: 90px;
+    width: 150rpx;
+    height: 50rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tline, .bline, .rline {
+    position: relative;
+}
+
+.tline::after, .bline::after, .rline::after, .lline::after {
     content: '';
     display: block;
-    height:1rpx;
-    background:#e5e5e5;
-    position:absolute;
-    transform: scale(.5);
+    height: 1rpx;
+    background: #e5e5e5;
+    position: absolute;
+    transform: scale(0.5);
 }
 
-.tline::after{
-    left:-50%;
-    right:-50%;
-    top:0;
+.tline::after {
+    left: -50%;
+    right: -50%;
+    top: 0;
+}
+
+.banner-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30rpx;
+}
+
+.banner-dot>view {
+    display: flex;
+    font-size: 0;
+    width: 14rpx;
+    height: 14rpx;
+    background: #eee;
+    border-radius: 90px;
+    margin: 0 2px;
+    transition: 0.4s;
+}
+
+.banner-dot>view.active {
+    width: 30rpx;
+    background: #af1654;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b9b9b9;
+    font-size: 24rpx;
+}
+
+.more::after {
+    content: '';
+    border: 3rpx solid #ddd;
+    border-left: none;
+    border-bottom: none;
+    display: block;
+    width: 14rpx;
+    height: 14rpx;
+    transform: rotate(45deg);
+}
+
+.page-title {
+    position: relative;
+    margin: 40rpx 30rpx;
+    font-size: 34rpx;
+    line-height: 34rpx;
+    padding-left: 20rpx;
+    color: #333;
+}
+
+.page-title::after {
+    content: '';
+    display: block;
+    top: 0;
+    bottom: 0;
+    color: #444;
+    background: #af1654;
+    width: 8rpx;
+    border-radius: 8rpx;
+    position: absolute;
+    left: 0;
+}
+
+.online-item {
+    margin: 60rpx 30rpx;
+    position: relative;
+}
+
+.online-item image {
+    width: 230rpx;
+    height: 180rpx;
+    border-radius: 8rpx;
+    margin-right: 30rpx;
+}
+
+.online-title {
+    font-size: 30rpx;
+    color: #333;
+}
+
+.online-intro {
+    color: #666;
+    font-size: 26rpx;
+    margin-top: 14rpx;
+}
+
+.online-price {
+    color: #af1654;
+    font-size: 14px;
+}
+
+.online-info {
+    height: 180rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.online-tag {
+    position: absolute;
+    left: 20rpx;
+    top: 0;
+}
+
+.online-tag image {
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32rpx;
+    margin:40rpx 0;
+}
+
+.tabs>view {
+    padding: 10rpx 50rpx;
+    line-height: 70rpx;
+    background: #f4f4f4;
+}
+
+.tabs>view:first-child {
+    border-radius: 90px 0 0 90px;
+}
+
+.tabs>view:last-child {
+    border-radius: 0 90px 90px 0;
+}
+
+.tabs>view.active {
+    background: #af1654;
+    color: #fff;
 }

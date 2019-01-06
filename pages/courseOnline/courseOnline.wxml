@@ -1,2 +1,90 @@
-<!--pages/courseOnline/courseOnline.wxml-->
-<text>pages/courseOnline/courseOnline.wxml</text>
+<view class='banner'>
+    <swiper class='banners' bindchange='bannerChange'>
+        <swiper-item>
+            <image src='../../images/b1.jpg'></image>
+        </swiper-item>
+        <swiper-item>
+            <image src='../../images/b1.jpg'></image>
+        </swiper-item>
+    </swiper>
+    <view class='banner-dot'>
+        <view wx:key="bannerDots" class='{{currentBanner == index ? "active":""}}' wx:for="..">
+
+        </view>
+    </view>
+</view>
+
+<view class='tabs' bindtap='toggleLesson'>
+    <view wx:for="{{['免费课程','收费课程']}}" 
+    class='{{currentTab == index ? "active" : ""}}'  
+    wx:key="TABS" data-index="{{index}}">{{item}}</view>
+</view>
+
+<view class='page-title  f-c-sb'>
+    课程观看量排行榜
+    <view class='more'>更多</view>
+</view>
+
+<view class='online'>
+    <view class='online-item f-c-c bline'>
+        <image src='../../images/b1.jpg'></image>
+        <view class='online-tag'>
+            <image src='../../images/g1.png'></image>
+        </view>
+        <view class='online-info'>
+            <view>
+
+                <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
+                <view class='online-intro'>专为餐饮人士打造</view>
+            </view>
+            <view class='online-price f-c-sb'>
+                <view>
+                    <text class='price'>¥2790</text>
+                    <text class='price-through '> ¥2790</text>
+                </view>
+                <view class='button'>立即替换</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='online-item f-c-c'>
+        <image src='../../images/b1.jpg'></image>
+        <view class='online-tag'>
+            <image src='../../images/g2.png'></image>
+        </view>
+        <view class='online-info'>
+            <view>
+
+                <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
+                <view class='online-intro'>专为餐饮人士打造</view>
+            </view>
+            <view class='online-price f-c-sb'>
+                <view>
+                    <text class='price'>¥2790</text>
+                    <text class='price-through '> ¥2790</text>
+                </view>
+                <view class='button'>立即替换</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='online-item f-c-c'>
+        <image src='../../images/b1.jpg'></image>
+        <view class='online-tag'>
+            <image src='../../images/g3.png'></image>
+        </view>
+        <view class='online-info'>
+            <view>
+                <view class='online-title'>苏格兰官方威士忌大使认证课程</view>
+                <view class='online-intro'>专为餐饮人士打造</view>
+            </view>
+            <view class='online-price f-c-sb'>
+                <view>
+                    <text class='price'>¥2790</text>
+                    <text class='price-through '> ¥2790</text>
+                </view>
+                <view class='button'>立即替换</view>
+            </view>
+        </view>
+    </view>
+</view>
