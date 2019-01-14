@@ -236,3 +236,16 @@ page {
     background: #af1654;
     color: #fff;
 }
+
+
+@keyframes sliderLeft {
+    0% {
+        transform: scaleX(0);
+        transform-origin: 0 0;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 0 0;
+    }
+}

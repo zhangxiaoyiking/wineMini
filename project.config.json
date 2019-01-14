@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 8,
+			"current": 9,
 			"list": [
 				{
 					"id": -1,
@@ -91,6 +91,12 @@
 					"id": -1,
 					"name": "limitedKill",
 					"pathName": "pages/limitedKill/limitedKill",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "skuDetail",
+					"pathName": "pages/skuDetail/skuDetail",
 					"query": ""
 				}
 			]

@@ -1,2 +1,56 @@
-<!--pages/skuDetail/skuDetail.wxml-->
-<text>pages/skuDetail/skuDetail.wxml</text>
+<view class='detail-img'>
+    <image src='../../images/sku.jpg'></image>
+
+    <view class='sku-kills' wx:if="{{isKillSku}}">
+
+        <view>
+            <view class='price'><text>¥</text>900.00 </view>
+            <view class='price-through'>¥1200</view>
+        </view>
+        <view class='kill-info'>
+            <view>
+                <view class='f-c-c'>
+                    距结束仅剩
+                    <view class='bar-time'>
+                        <view> 02</view>:
+                        <view> 02</view>:
+                        <view> 12</view>
+                    </view>
+                </view>
+                <view class='bar-step'>
+                    <view class='bar-step-active' style='width:80%'></view>
+                </view>
+            </view>
+            <view class='ico ico-flash'></view>
+        </view>
+    </view>
+</view>
+
+<view class='sku-info f-c-sb' wx:if="{{!isKillSku}}">
+    <view>
+        <view class='price'>
+            <text>¥</text> 900.00</view>
+        <view class='price-through'>¥1192.00</view>
+    </view>
+    <view class='sku-tag'>已售1106件</view>
+</view>
+
+
+<view class='sku-title'>
+    <text> 商品详情</text>
+</view>
+<view class='sku-detail'>
+    法国原瓶进口红酒6支整箱 满两箱送2支水晶杯 佩蒂克斯干红葡萄酒。法国原瓶进口红酒6支整箱 满两箱送2支水晶杯。</view>
+
+<view class='sku-bar tline'>
+    <view class='sku-fav '>
+        <view bindtap='skuFav' class='{{isFav?"active":""}}'>
+            <view class='ico ico-star{{isFav?"-sel":""}}'></view> 收藏 </view>
+        <button open-type='share'>
+            <view class='ico ico-share'></view>转发</button>
+    </view>
+    <view class='sku-btn'>
+        <view class='sku-add'>加入购物车</view>
+        <view class='sku-buy'>立即购买</view>
+    </view>
+</view>
