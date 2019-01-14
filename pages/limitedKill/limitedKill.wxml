@@ -1,0 +1,36 @@
+<view class='tab bline' bindtap='toggleTab'>
+    <view data-index="{{index}}" class='{{currentTab == index ? "active":""}}' wx:for="{{['领取优惠券','限时秒杀']}}" wx:key="kills"> {{item}} </view>
+</view>
+
+<view>
+    <view class='coupon' wx:if="{{currentTab == 0}}">
+        <view class='copuon-item'>
+            <view class='c-head'>
+                <view class='c-price'> ¥
+                    <text> 90</text>
+                </view>
+                <view>无门槛</view>
+            </view>
+            <view class='c-cont'>
+                <view>全品类券</view>
+                <view class='c-info'>使用期限
+                    <view>2018.12.12-2019.02.12</view>
+                </view>
+                <view class='c-num'>2100人已领取</view>
+            </view>
+            <view class='c-button'>
+                <view class='button'>立即领取</view>
+                <view class='c-share'>
+                    <view class='ico ico-shares'></view>分享 </view>
+            </view>
+        </view>
+    </view>
+    <view class='kill'  wx:if="{{currentTab == 1}}">
+        <view class='sku-item'>
+            <view><image src='../../images/b1.jpg'></image></view>
+            <view>
+                <view>限时秒杀</view>
+            </view>
+        </view>
+    </view>
+</view>

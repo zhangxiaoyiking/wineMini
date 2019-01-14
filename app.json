@@ -5,6 +5,11 @@
         "pages/courseOnline/courseOnline",
         "pages/member/member",
         "pages/mall/mall",
+        "pages/coupon/coupon",
+        "pages/cargo/cargo",
+        "pages/cargoDetail/cargoDetail",
+        "pages/travel/travel",
+        "pages/limitedKill/limitedKill",
         "pages/game/game"
     ],
     "window": {

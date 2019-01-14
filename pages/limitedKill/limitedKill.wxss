@@ -1,0 +1,97 @@
+.copuon-item {
+    display: flex;
+    height: 200rpx;
+    flex-wrap: wrap;
+    background: #fff;
+    box-shadow: 2px 3px 8px 0 #ebebeb;
+    margin: 30rpx;
+    border-radius: 10rpx;
+}
+
+.c-button {
+    width: 160rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200rpx;
+}
+
+.c-num {
+    font-size: 20rpx;
+    margin-top:10rpx;
+}
+
+.c-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22rpx;
+    margin-top: 20rpx;
+}
+
+.c-share .ico {
+    font-size: 44rpx;
+}
+
+.c-cont {
+    flex: 1;
+    padding: 0 30rpx;
+}
+
+.c-title {
+    font-size: 32rpx;
+    color: #333;
+}
+
+.c-info {
+    color: #999;
+    font-size: 22rpx;
+}
+
+.c-head {
+    background: #af1654 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAnCAYAAAFiXLgWAAAABGdBTUEAALGPC/xhBQAAAs1JREFUSA3NVktoE0EY/ncsIlgFH9imQsXaS+NRgo8KvvBgVRS1glBBay/Vg4IF8VIUPEgVQb3qwYMHXySiplDqm6BpPUmtoGgRm0aNERrahLYm6/5TZ5zZ1+zGFZzL//q+75+d2dlZTTcGGCNW1QyEOWhJYvdptHRoE9mcHm9opQGZOX8OVNaFpisogGQcpL/tAnVokLr34k/APcMhO7/e4rHGZpCO90Hy4DleqECPKfOs4ZDu8CEx5j6VsmPwHggVAbyQ2HUKMok3XIouBUZiEmNpjTDBhhZdtIeuJEswy6VYgtkyCjtGbjC2ZPlziA+HCN5jVtU8e4aYNbPFGlfCJO6VGxgxdP9GHiShr/U8xspBMs8HPINRTbtft1+fGisolRmAhJpWMt+Tpet6t3ov/D4lShLfiNzgJ3i0ocM7QUS6La20D4wUPrmPuRbLpyRWfHVIRRMi1+JbOripI1t6hp4Vhy2K5gR9lzCpUmZE2sErGEnk/aUoI3uyjufdiS09tBNIzP+PBFIxQ5yi0ifre7uUIBFA5jbUwsI1y8Wcq89fPnyP8sMZVzAWOQGDdHc/JA+4T1Hah9CWCNQ2r0Ou45A6UJRxx8aMr4jTkDpQkKY5YafL7NJ0Q02NjgNelaWfRTeYbc06IxvYy5azZYmjFD/RNrpQLEzC440dMPYxbVf2lLM00IslGOi8Bh+uxD0JqEBSg8Ez1+Hd5ZiK46tOG+BSPGw8CvnUd19kL2BNL5X0nsgRyH9WHxsvgmYMedt185+JYzMyfPuZuWmgMSmkfwQqaBYjlfU15lygMVnW1hSooFmMLGnZBIu3rTLnA4vptyhy9TjUt28PTFQUkr7XE5lReLL5BBTSWRHzV77UgClNZnPwqv0ifHv6mqXKtrYNRLXxoS/Q23gM9KL/uwB1lPfB7KXVsPZOp9jTl69sgGoLVoehZqu/X3g2i1+28gKQahzHGQAAAABJRU5ErkJggg==) repeat-y left;
+    background-size: 12rpx;
+    color: #fff;
+    width: 200rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30rpx;
+}
+
+.c-head text {
+    font-size: 88rpx;
+}
+
+.c-price {
+    display: flex;
+    align-items: center;
+}
+.tab{
+    display: flex;
+    align-items:center;
+    font-size:34rpx;
+    justify-content:center;
+}
+.tab>view{
+    padding:28rpx 30rpx;
+    position:relative;
+}
+.tab>view.active{
+    font-weight:800;
+    color:#af1654;
+}
+.tab>view.active::before{
+    width:58rpx;
+    height:6rpx;
+    background:#af1654;
+    border-radius:90px;
+    content: '';
+    display:block;
+    position:absolute;
+    left:50%;
+    margin-left:-29rpx;
+    bottom:0;
+}

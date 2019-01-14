@@ -1,0 +1,47 @@
+.s-bar {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.s-bar>view {
+    display: flex;
+    align-items: center;
+    font-size: 25rpx;
+    color: #333;
+    margin-left:20rpx;
+}
+.s-bar>view .ico{
+    font-size:36rpx;
+    margin-right:8rpx;
+}
+.s-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding:30rpx 0;
+    margin:0 30rpx;
+}
+
+.s-cont {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.s-title{
+    font-size:30rpx;
+    color:#030303;
+    line-height:1.5;
+}
+.s-img {
+    width: 200rpx;
+    height: 200rpx;
+    margin-right:20rpx;
+    border-radius:10rpx;
+    overflow:hidden;
+}
+
+.s-img image {
+    width: 200rpx;
+    height: 200rpx;
+}

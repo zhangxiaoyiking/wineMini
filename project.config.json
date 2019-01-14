@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -61,6 +61,36 @@
 					"id": -1,
 					"name": "game",
 					"pathName": "pages/game/game",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "coupon",
+					"pathName": "pages/coupon/coupon",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "cargo",
+					"pathName": "pages/cargo/cargo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "cargoDetail",
+					"pathName": "pages/cargoDetail/cargoDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "travel",
+					"pathName": "pages/travel/travel",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "limitedKill",
+					"pathName": "pages/limitedKill/limitedKill",
 					"query": ""
 				}
 			]

@@ -1,0 +1,25 @@
+.detail{
+    margin:0 30rpx;
+    font-size:24rpx;
+    line-height:1.5;
+}
+
+.detail-title{
+    font-size:36rpx;
+    line-height:1.5;
+    color:#333;
+}
+
+.detail-head{
+    margin:0 30rpx;
+    padding:30rpx 0;
+}
+.detail-subtitle{
+    font-size:22rpx;
+    color:#999;
+}
+
+.detail image{
+    display: block;
+    margin:20rpx auto;
+}
