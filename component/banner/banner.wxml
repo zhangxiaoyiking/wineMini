@@ -1,7 +1,7 @@
 
 
 <view class='banner'>
-    <view class='search ico-search'></view>
+    <view class='search ico-search'> <view class='ico-search'></view></view>
     <swiper class='banners' bindchange='bannerChange'>
         <swiper-item>
             <image mode='' src='../../images/bannerst.jpg'></image>

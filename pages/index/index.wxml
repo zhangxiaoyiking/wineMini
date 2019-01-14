@@ -33,7 +33,7 @@
 <view class='page-title'>讲师介绍</view>
 
 <view>
-    <swiper class='t' next-margin="50" circular="true">
+    <swiper class='t swiper-master' next-margin="240rpx" circular="true" >
         <swiper-item>
             <view class="t-cont">
                 <view class='t-img'>
@@ -73,7 +73,7 @@
     <view class='more'>更多</view>
 </view>
 <view class='teacher'>
-    <swiper class='teacher-swiper' next-margin="50" circular="true">
+    <swiper class='teacher-swiper' next-margin="125rpx">
         <swiper-item wx:for="{{teacher}}" wx:key="teachers">
             <view class='teacher-item'>
                 <view class='teacher-info'>

@@ -30,14 +30,17 @@
     color: #666;
     font-size: 26rpx;
 }
-.banner{
-    width:100%;
-    height:540rpx;
+
+.banner {
+    width: 100%;
+    height: 540rpx;
 }
-.banner image{
-    width:100%;
-    height:540rpx;
+
+.banner image {
+    width: 100%;
+    height: 540rpx;
 }
+
 .ad {
     display: flex;
     align-items: center;
@@ -51,112 +54,126 @@
 }
 
 .teacher-item {
-    height:900rpx;
-    margin: 0 20rpx;
+    height: 980rpx;
+    margin-left: 30rpx;
     border-radius: 10rpx;
-    padding:30rpx;
-    width:80%;
+    padding: 30rpx;
+    width: 580rpx;
+    box-sizing: border-box;
     background-color: #fff;
-    box-shadow: 0px 0px 30rpx 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30rpx rgba(0, 0, 0, 0.1);
+    margin-top: 20rpx;
 }
-.teacher-i{
-    flex:1;
+
+.teacher-i {
+    flex: 1;
 }
+
 .teacher-img {
     width: 130rpx;
     height: 130rpx;
     border-radius: 90px;
-    margin-right:20rpx;
+    margin-right: 20rpx;
 }
 
 .teacher-info {
     display: flex;
-    background:#eee;
-    padding:30rpx;
-    border-radius:18rpx;
-    flex-flow:row;
+    background: #eee;
+    padding: 30rpx;
+    border-radius: 18rpx;
+    flex-flow: row;
 }
 
 .teacher-intro {
     font-size: 24rpx;
     color: #888;
-    margin-top:14rpx;
+    margin-top: 14rpx;
 }
 
-.tags{
+.tags {
     display: flex;
 }
-.teacher-tag{
-    font-size:26rpx;
-    margin-right:30rpx;
+
+.teacher-tag {
+    font-size: 26rpx;
+    margin-right: 30rpx;
 }
 
-.teacher-level{
-    font-size:30rpx;
-    color:#333;
-}
-.teacher-name{
-     font-size:32rpx;
-    color:#af1654;
+.teacher-level {
+    font-size: 30rpx;
+    color: #333;
 }
 
-.teacher-swiper{
-    height:900rpx;
+.teacher-name {
+    font-size: 32rpx;
+    color: #af1654;
 }
 
-.teacher-title{
-    color:#333;
-    font-size:30rpx;
-    margin:20rpx 0;
-}
-.teacher-advice{
-    padding:20rpx 0;
-}
-.teacher-advice>view{
-    font-size:26rpx;
-    margin:10rpx 0;
-}
-.tag{
-    background:#af1654;
-    color:#fff;
-    border-radius:6rpx;
-    margin:20rpx 0;
-    font-size:24rpx;
-    text-align:center;
-    padding:10rpx 0;
-    width:180rpx;
+.teacher-swiper {
+    height: 1100rpx;
 }
 
-.t{
-    margin:0 30rpx;
-    padding-bottom:50rpx;
+.teacher-title {
+    color: #333;
+    font-size: 30rpx;
+    margin: 20rpx 0;
 }
-.t swiper-item{
-    padding-bottom:400rpx;
+
+.teacher-advice {
+    padding: 20rpx 0;
 }
-.t-img{
+
+.teacher-advice>view {
+    font-size: 26rpx;
+    margin: 10rpx 0;
+}
+
+.tag {
+    background: #af1654;
+    color: #fff;
+    border-radius: 6rpx;
+    margin: 20rpx 0;
+    font-size: 24rpx;
+    text-align: center;
+    padding: 10rpx 0;
+    width: 180rpx;
+}
+
+.t {
+    margin: 0 0;
+    padding-bottom: 50rpx;
+    height: 420rpx;
+}
+
+.t-img {
     width: 460rpx;
-    height:260rpx;
+    height: 260rpx;
 }
-.t-img image{
+
+.t-img image {
     width: 460rpx;
-    height:260rpx;
+    height: 260rpx;
 }
+
 .t-cont {
-  border-radius: 10rpx;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
-  width: 460rpx;
-  height: 384rpx;
-  overflow:hidden;
+    border-radius: 10rpx;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 30rpx 0px rgba(0, 0, 0, 0.1);
+    width: 460rpx;
+    height: 384rpx;
+    overflow: hidden;
+    margin: 20rpx 30rpx 0;
 }
-.t-title{
-    font-size:28rpx;
+
+.t-title {
+    font-size: 28rpx;
 }
-.t-container{
-    padding:20rpx;
+
+.t-container {
+    padding: 20rpx;
 }
-.t-info{
-    font-size:22rpx;
-    color:#999;
+
+.t-info {
+    font-size: 22rpx;
+    color: #999;
 }
