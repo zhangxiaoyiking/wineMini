@@ -65,7 +65,19 @@
     position: relative;
     padding: 34rpx 20rpx;
 }
-
+.list>view::before{
+    display: block;
+    content: '';
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    transform: scaleX(.5);
+    border-bottom:1px solid #eee;
+}
+.list>view:last-child::before{
+    border:none;
+}
 .list>view image {
     width: 36rpx;
     height: 36rpx;
