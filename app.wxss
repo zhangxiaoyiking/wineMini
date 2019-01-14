@@ -51,24 +51,29 @@ page {
     height: 1rpx;
     background: #e5e5e5;
     position: absolute;
-    transform: scale(0.5);
+}
+
+.rline::after {
+    transform: scaleY(0.5);
+    right: 0;
+    top: -50%;
+    bottom: -50%;
 }
 
 .tline::after {
     left: -50%;
     right: -50%;
+    transform: scaleX(0.5);
     top: 0;
 }
 
 .bline {
+    left: -50%;
+    right: -50%;
+    transform: scaleX(0.5);
+    bottom: 0;
 }
 
-.rline {
-    right: 0;
-    top: -50%;
-    bottom: -50%;
-    transform: scaleY(0.5);
-}
 
 .banner-dot {
     display: flex;
@@ -90,7 +95,7 @@ page {
 
 .banner-dot>view.active {
     width: 20rpx;
-    background: #aaaaaa;
+    background: #aaa;
 }
 
 .more {

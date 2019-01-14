@@ -110,7 +110,7 @@
 }
 
 .teacher-swiper {
-    height: 1100rpx;
+    height: 1030rpx;
 }
 
 .teacher-title {
@@ -176,4 +176,8 @@
 .t-info {
     font-size: 22rpx;
     color: #999;
+}
+
+.page-title{
+    margin-bottom:20rpx;
 }

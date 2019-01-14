@@ -1,18 +1,18 @@
 <view class='member-head'>
     <view class='member f-c-sb'>
+
         <view class='f-c-c'>
             <image class='user-img' src='../../images/b1.jpg'></image>
-            <view>
+            <view class='member-info'>
                 <view class='user-name'>SUNNY</view>
-                <view>和我一起品乐酒</view>
+                <view class='user-intro'>和我一起品乐酒</view>
             </view>
         </view>
-        <view class='user-vip'>
-            <image src='../../images/vips.png'></image>VIP LV3</view>
+        <view class='user-vip'><image src='../../images/vips.png'></image>VIP LV3</view>
     </view>
 
     <view class='member-col f-c-sb'>
-        <view  class='rline'>
+        <view class='rline'>
             <view>12</view> 我的收藏</view>
         <view class='rline'>
             <view>12</view> 我的点赞</view>
