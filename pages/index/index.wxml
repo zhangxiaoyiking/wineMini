@@ -19,13 +19,13 @@
 </view>
 
 <view class='ad'>
-    <view>
+    <view bindtap='toCargo'>
         <image src='../../images/s1.jpg'></image>
     </view>
-    <view>
+    <view bindtap='toTravel'>
         <image src='../../images/s2.jpg'></image>
     </view>
-    <view>
+    <view bindtap='toCoupons'>
         <image src='../../images/s3.jpg'></image>
     </view>
 </view>

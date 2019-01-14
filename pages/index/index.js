@@ -40,5 +40,23 @@ Page({
                 teacher: res
             })
         })
-    }
+    },
+    //跳转到干货
+    toCargo(){
+        wx.navigateTo({
+            url: '/pages/cargo/cargo',
+        })
+    },
+    //跳转到游学
+    toTravel() {
+        wx.navigateTo({
+            url: '/pages/travel/travel',
+        })
+    },
+    //跳转到优惠秒杀
+    toCoupons() {
+        wx.navigateTo({
+            url: '/pages/limitedKill/limitedKill',
+        })
+    },
 })
