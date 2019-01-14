@@ -10,6 +10,7 @@
         "pages/cargoDetail/cargoDetail",
         "pages/travel/travel",
         "pages/limitedKill/limitedKill",
+        "pages/skuDetail/skuDetail",
         "pages/game/game"
     ],
     "window": {
