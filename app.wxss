@@ -4,7 +4,9 @@
 page {
     box-sizing: border-box;
 }
-
+.flex{
+    display: flex;
+}
 .f-c-c {
     display: flex;
     align-items: center;
@@ -19,7 +21,12 @@ page {
 
 .price {
     color: #af1654;
-    font-size: 30rpx;
+    font-size: 34rpx;
+    margin-right:20rpx;
+}
+.price text{
+    font-size:20rpx;
+    align-items:center;
 }
 
 .price-through {

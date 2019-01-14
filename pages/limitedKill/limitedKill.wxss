@@ -19,7 +19,7 @@
 
 .c-num {
     font-size: 20rpx;
-    margin-top:10rpx;
+    margin-top: 10rpx;
 }
 
 .c-share {
@@ -69,29 +69,140 @@
     display: flex;
     align-items: center;
 }
-.tab{
+
+.tab {
     display: flex;
-    align-items:center;
-    font-size:34rpx;
-    justify-content:center;
+    align-items: center;
+    font-size: 34rpx;
+    justify-content: center;
 }
-.tab>view{
-    padding:28rpx 30rpx;
-    position:relative;
+
+.tab>view {
+    padding: 28rpx 30rpx;
+    position: relative;
 }
-.tab>view.active{
-    font-weight:800;
-    color:#af1654;
+
+.tab>view.active {
+    font-weight: 800;
+    color: #af1654;
 }
-.tab>view.active::before{
-    width:58rpx;
-    height:6rpx;
-    background:#af1654;
-    border-radius:90px;
+
+.tab>view.active::before {
+    width: 58rpx;
+    height: 6rpx;
+    background: #af1654;
+    border-radius: 90px;
     content: '';
-    display:block;
-    position:absolute;
-    left:50%;
-    margin-left:-29rpx;
-    bottom:0;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -29rpx;
+    bottom: 0;
+}
+
+.sku-item {
+    margin: 30rpx;
+}
+
+.sku-img {
+    width: 200rpx;
+    height: 200rpx;
+    margin-right:30rpx;
+    border-radius: 8rpx;
+}
+
+.sku-img image {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 8rpx;
+}
+
+.sku-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16rpx;
+}
+
+.sku-content {
+    display: flex;
+}
+
+.sku-cont {
+    flex: 1;
+    display: flex;
+    align-items:left;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.sku-head {
+    background: #af1654;
+    color: #fff;
+    height: 44rpx;
+    font-size: 24rpx;
+    padding: 0 30rpx;
+    border-radius: 8rpx;
+}
+
+.sku-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sku-endtime {
+    display: flex;
+}
+
+.sku-price {
+    font-size: 24rpx;
+    align-items: center;
+    margin-top:18rpx;
+}
+
+.sku-bar {
+    width: 264rpx;
+    height: 12rpx;
+    background: #eee;
+    border-radius: 90px;
+}
+
+@keyframes sliderLeft {
+    0% {
+        transform: scaleX(0);
+        transform-origin: 0 0;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 0 0;
+    }
+}
+.sku-title{
+    font-size:30rpx;
+    color:#333;
+}
+.sku-rem {
+    color: #af1654;
+}
+
+.sku-info {
+    font-size: 22rpx;
+    color: #999;
+    width: 264rpx;
+    padding:10rpx 0;
+}
+
+.sku-bar-active {
+    background: #af1654;
+    border-radius: 90px;
+    height: 12rpx;
+    animation: sliderLeft 1s ease-in;
+}
+.sku-bottom{
+    flex: 1;
+}
+
+.sku-als{
+    width:100%;   
 }
