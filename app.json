@@ -4,13 +4,17 @@
         "pages/course/course",
         "pages/courseOnline/courseOnline",
         "pages/member/member",
-        "pages/mall/mall"
+        "pages/mall/mall",
+        "pages/game/game"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#2E2E2E",
         "navigationBarTitleText": "品乐侍酒",
         "navigationBarTextStyle": "withe"
+    },
+    "usingComponents": {
+        "banner": "component/banner/banner"
     },
     "tabBar": {
         "background":"#F8F8F8",

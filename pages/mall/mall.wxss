@@ -1,1 +1,109 @@
 /* pages/mall/mall.wxss */
+
+.m-sort>view {
+    width: 33.333333%;
+    text-align: center;
+    font-size: 26rpx;
+    color: #333;
+}
+
+.m-sort {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.m-sort image {
+    width: 112rpx;
+    height: 112rpx;
+    display: block;
+    margin: 0 auto;
+}
+
+.m-title {
+    display: flex;
+    align-items: center;
+    font-size: 34rpx;
+    color: #333;
+    margin: 30rpx;
+    font-weight: 800;
+}
+
+.m-title image {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 10rpx;
+}
+
+.m-good {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30rpx;
+    justify-content: space-between;
+}
+
+.m-good>view {
+    text-align: center;
+    width: 212rpx;
+    border-radius: 14rpx;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30rpx;
+}
+
+.m-good text {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10rpx 0;
+    font-size: 26rpx;
+}
+
+.m-good>view image {
+    width: 210rpx;
+    height: 210rpx;
+    vertical-align: bottom;
+}
+
+.s image {
+    width: 290rpx;
+    height: 290rpx;
+    border-radius: 10rpx;
+}
+
+.s {
+    width: 290rpx;
+    font-size: 24rpx;
+    color: #333;
+    margin: 0 30rpx;
+}
+
+.s-title {
+    font-size: 24rpx;
+    color: #333;
+    margin: 10rpx 0;
+}
+
+.s-bar text {
+    color: #b9b9b9;
+    font-size: 20rpx;
+}
+
+.s-bar text.price {
+    color: #af1654;
+    font-size: 30rpx;
+}
+
+.s-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-swiper {
+    height: 500rpx;
+}

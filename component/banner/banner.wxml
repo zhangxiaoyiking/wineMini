@@ -1,0 +1,17 @@
+
+
+<view class='banner'>
+    <view class='search ico-search'></view>
+    <swiper class='banners' bindchange='bannerChange'>
+        <swiper-item>
+            <image mode='' src='../../images/bannerst.jpg'></image>
+        </swiper-item>
+        <swiper-item>
+            <image src='../../images/bannerst.jpg'></image>
+        </swiper-item>
+    </swiper>
+    <view class='banner-dot'>
+        <view wx:key="bannerDots" class='{{currentBanner == index ? "active":""}}' wx:for="..">
+        </view>
+    </view>
+</view>
