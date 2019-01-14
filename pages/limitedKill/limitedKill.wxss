@@ -106,9 +106,16 @@
 }
 
 .sku-item {
-    margin: 30rpx;
+    margin: 30rpx 30rpx 60rpx;
 }
-
+.sku-head-title{
+    display: flex;
+    align-items:center;
+    
+}
+.sku-head .ico{
+    font-size:40rpx;
+}
 .sku-img {
     width: 200rpx;
     height: 200rpx;
@@ -145,7 +152,7 @@
     color: #fff;
     height: 44rpx;
     font-size: 24rpx;
-    padding: 0 30rpx;
+    padding: 0 30rpx 0 10rpx;
     border-radius: 8rpx;
 }
 
@@ -213,5 +220,5 @@
 }
 
 .sku-item.disable{
-    
+
 }

@@ -2,7 +2,7 @@
     <view data-index="{{index}}" class='{{currentTab == index ? "active":""}}' wx:for="{{['领取优惠券','限时秒杀']}}" wx:key="kills"> {{item}} </view>
 </view>
 
-<view >
+<view>
     <view class='coupon' wx:if="{{currentTab == 0}}">
         <view class='copuon-item'>
             <view class='c-head'>
@@ -46,14 +46,21 @@
             </view>
         </view>
     </view>
-    <view class='kill'  wx:if="{{currentTab == 1}}">
+    <view class='kill' wx:if="{{currentTab == 1}}">
         <view class='sku-item'>
-             <view class='sku-head'>
-                <view>限时秒杀</view>
-                <view class='sku-endtime'> 倒计时 <view>02</view>: <view>02</view>:<view>58</view></view>
+            <view class='sku-head'>
+                <view class='sku-head-title'>
+                    <view class='ico ico-flash'></view> 限时秒杀</view>
+                <view class='sku-endtime'> 倒计时
+                    <view>02</view>:
+                    <view>02</view>:
+                    <view>58</view>
+                </view>
             </view>
             <view class='sku-content'>
-                <view class='sku-img'><image src='../../images/b1.jpg'></image></view>
+                <view class='sku-img'>
+                    <image src='../../images/b1.jpg'></image>
+                </view>
                 <view class='sku-cont'>
                     <view class='sku-title'>法国佩蒂克斯干红葡萄酒750ml</view>
                     <view class='sku-als'>
@@ -62,26 +69,38 @@
                                 <view class='sku-rem'>已抢123件</view>
                                 <view class='sku-sell'>仅剩2323件</view>
                             </view>
-                            <view class='sku-bar'> <view class='sku-bar-active' style="width:80%"></view> </view>
+                            <view class='sku-bar'>
+                                <view class='sku-bar-active' style="width:80%"></view>
+                            </view>
                         </view>
 
-                        <view class='f-c-sb sku-bottom'> 
+                        <view class='f-c-sb sku-bottom'>
                             <view class='flex sku-price'>
-                                <view class='price'><text>¥</text>899.00</view>  <view><text>¥</text>12899.00</view>  
+                                <view class='price'>
+                                    <text>¥</text>899.00</view>
+                                <view>
+                                    <text>¥</text>12899.00</view>
                             </view>
-                            <view class='button'>立即抢购</view> 
+                            <view class='button'>立即抢购</view>
                         </view>
                     </view>
                 </view>
             </view>
         </view>
         <view class='sku-item'>
-             <view class='sku-head'>
-                <view>限时秒杀</view>
-                <view class='sku-endtime'> 倒计时 <view>02</view>: <view>02</view>:<view>58</view></view>
+            <view class='sku-head'>
+                <view class='sku-head-title'>
+                    <view class='ico ico-flash'></view> 限时秒杀</view>
+                <view class='sku-endtime'> 倒计时
+                    <view>02</view>:
+                    <view>02</view>:
+                    <view>58</view>
+                </view>
             </view>
             <view class='sku-content'>
-                <view class='sku-img'><image src='../../images/b1.jpg'></image></view>
+                <view class='sku-img'>
+                    <image src='../../images/b1.jpg'></image>
+                </view>
                 <view class='sku-cont'>
                     <view class='sku-title'>法国佩蒂克斯干红葡萄酒750ml</view>
                     <view class='sku-als'>
@@ -90,14 +109,19 @@
                                 <view class='sku-rem'>已抢123件</view>
                                 <view class='sku-sell'>仅剩2323件</view>
                             </view>
-                            <view class='sku-bar'> <view class='sku-bar-active' style="width:80%"></view> </view>
+                            <view class='sku-bar'>
+                                <view class='sku-bar-active' style="width:80%"></view>
+                            </view>
                         </view>
 
-                        <view class='f-c-sb sku-bottom'> 
+                        <view class='f-c-sb sku-bottom'>
                             <view class='flex sku-price'>
-                                <view class='price'><text>¥</text>899.00</view>  <view><text>¥</text>12899.00</view>  
+                                <view class='price'>
+                                    <text>¥</text>899.00</view>
+                                <view>
+                                    <text>¥</text>12899.00</view>
                             </view>
-                            <view class='button'>立即抢购</view> 
+                            <view class='button'>立即抢购</view>
                         </view>
                     </view>
                 </view>
@@ -105,12 +129,19 @@
         </view>
 
         <view class='sku-item'>
-             <view class='sku-head'>
-                <view>限时秒杀</view>
-                <view class='sku-endtime'> 倒计时 <view>02</view>: <view>02</view>:<view>58</view></view>
+            <view class='sku-head'>
+                <view class='sku-head-title'>
+                    <view class='ico ico-flash'></view> 限时秒杀</view>
+                <view class='sku-endtime'> 倒计时
+                    <view>02</view>:
+                    <view>02</view>:
+                    <view>58</view>
+                </view>
             </view>
             <view class='sku-content'>
-                <view class='sku-img'><image src='../../images/b1.jpg'></image></view>
+                <view class='sku-img'>
+                    <image src='../../images/b1.jpg'></image>
+                </view>
                 <view class='sku-cont'>
                     <view class='sku-title'>法国佩蒂克斯干红葡萄酒750ml</view>
                     <view class='sku-als'>
@@ -119,14 +150,19 @@
                                 <view class='sku-rem'>已抢123件</view>
                                 <view class='sku-sell'>仅剩2323件</view>
                             </view>
-                            <view class='sku-bar'> <view class='sku-bar-active' style="width:80%"></view> </view>
+                            <view class='sku-bar'>
+                                <view class='sku-bar-active' style="width:80%"></view>
+                            </view>
                         </view>
 
-                        <view class='f-c-sb sku-bottom'> 
+                        <view class='f-c-sb sku-bottom'>
                             <view class='flex sku-price'>
-                                <view class='price'><text>¥</text>899.00</view>  <view><text>¥</text>12899.00</view>  
+                                <view class='price'>
+                                    <text>¥</text>899.00</view>
+                                <view>
+                                    <text>¥</text>12899.00</view>
                             </view>
-                            <view class='button'>立即抢购</view> 
+                            <view class='button'>立即抢购</view>
                         </view>
                     </view>
                 </view>
@@ -134,12 +170,19 @@
         </view>
 
         <view class='sku-item disble'>
-             <view class='sku-head'>
-                <view>限时秒杀</view>
-                <view class='sku-endtime'> 倒计时 <view>02</view>: <view>02</view>:<view>58</view></view>
+            <view class='sku-head'>
+                <view class='sku-head-title'>
+                    <view class='ico ico-flash'></view> 限时秒杀</view>
+                <view class='sku-endtime'> 倒计时
+                    <view>02</view>:
+                    <view>02</view>:
+                    <view>58</view>
+                </view>
             </view>
             <view class='sku-content'>
-                <view class='sku-img'><image src='../../images/b1.jpg'></image></view>
+                <view class='sku-img'>
+                    <image src='../../images/b1.jpg'></image>
+                </view>
                 <view class='sku-cont'>
                     <view class='sku-title'>法国佩蒂克斯干红葡萄酒750ml</view>
                     <view class='sku-als'>
@@ -148,14 +191,19 @@
                                 <view class='sku-rem'>已抢123件</view>
                                 <view class='sku-sell'>仅剩2323件</view>
                             </view>
-                            <view class='sku-bar'> <view class='sku-bar-active' style="width:80%"></view> </view>
+                            <view class='sku-bar'>
+                                <view class='sku-bar-active' style="width:80%"></view>
+                            </view>
                         </view>
 
-                        <view class='f-c-sb sku-bottom'> 
+                        <view class='f-c-sb sku-bottom'>
                             <view class='flex sku-price'>
-                                <view class='price'><text>¥</text>899.00</view>  <view><text>¥</text>12899.00</view>  
+                                <view class='price'>
+                                    <text>¥</text>899.00</view>
+                                <view>
+                                    <text>¥</text>12899.00</view>
                             </view>
-                            <view class='button'>立即抢购</view> 
+                            <view class='button'>立即抢购</view>
                         </view>
                     </view>
                 </view>
