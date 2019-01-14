@@ -165,7 +165,9 @@
 .sku-kills .price{
     color:#fff;
 }
-
+.sku-prices{
+    display: flex;
+}
 .bar-step{
     height:12rpx;
     border-radius:10px;

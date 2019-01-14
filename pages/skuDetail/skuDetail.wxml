@@ -3,7 +3,7 @@
 
     <view class='sku-kills' wx:if="{{isKillSku}}">
 
-        <view>
+        <view class='sku-prices'>
             <view class='price'><text>¥</text>900.00 </view>
             <view class='price-through'>¥1200</view>
         </view>

@@ -10,6 +10,11 @@ Page({
            currentTab:e.target.dataset.index
        })
    },
+    toSkuDetail(){
+        wx.navigateTo({
+            url: '/pages/skuDetail/skuDetail?isKillSku=true',
+        })
+    },
     onShareAppMessage: function () {
 
     }

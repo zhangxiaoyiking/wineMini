@@ -8,7 +8,9 @@
     border-radius: 10rpx;
 }
 
+.c-infos{
 
+}
 .c-button {
     width: 160rpx;
     display: flex;
@@ -37,7 +39,11 @@
 
 .c-cont {
     flex: 1;
-    padding: 0 30rpx;
+    padding:10rpx 30rpx;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:space-between;
 }
 
 .c-title {
