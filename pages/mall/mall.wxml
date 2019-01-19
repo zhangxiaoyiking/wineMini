@@ -1,123 +1,95 @@
 <banner />
 
 <view class='page-title'>
-    红人推荐
+  红人推荐
 </view>
 <swiper class='s-swiper' display-multiple-items='2' next-margin='85rpx'>
-    <swiper-item>
-        <view class='s'>
-            <image src="../../images/b1.jpg"></image>
-            <view class='s-title'>法国原瓶进口佩蒂克斯干红 葡萄酒 750ml</view>
-            <view class='s-bar'> <text class='price'> ¥599</text>  <text>454人付款</text> </view>
-        </view>
-    </swiper-item>
-        <swiper-item>
-        <view class='s'>
-            <image src="../../images/b1.jpg"></image>
-            <view class='s-title'>法国原瓶进口佩蒂克斯干红 葡萄酒 750ml</view>
-            <view class='s-bar'> <text class='price'> ¥599</text>  <text>454人付款</text> </view>
-        </view>
-    </swiper-item>
-        <swiper-item>
-        <view class='s'>
-            <image src="../../images/b1.jpg"></image>
-            <view class='s-title'>法国原瓶进口佩蒂克斯干红 葡萄酒 750ml</view>
-            <view class='s-bar'> <text class='price'> ¥599</text>  <text>454人付款</text> </view>
-        </view>
-    </swiper-item>
-        <swiper-item>
-        <view class='s'>
-            <image src="../../images/b1.jpg"></image>
-            <view class='s-title'>法国原瓶进口佩蒂克斯干红 葡萄酒 750ml</view>
-            <view class='s-bar'> <text class='price'> ¥599</text>  <text>454人付款</text> </view>
-        </view>
-    </swiper-item>
-        <swiper-item>
-        <view class='s'>
-            <image src="../../images/b1.jpg"></image>
-            <view class='s-title'>法国原瓶进口佩蒂克斯干红 葡萄酒 750ml</view>
-            <view class='s-bar'> <text class='price'> ¥599</text>  <text>454人付款</text> </view>
-        </view>
-    </swiper-item>
-    
-       
+  <swiper-item wx:for="{{recommendList}}">
+    <view class='s'>
+      <image src="{{item.pic}}"></image>
+      <view class='s-title'>{{item.title}}</view>
+      <view class='s-bar'>
+        <text class='price'> ¥{{item.newPrice}}</text>
+        <text>{{item.sellOut}}人付款</text> </view>
+    </view>
+  </swiper-item>
 </swiper>
-<view>
 
-</view>
 
 <view class='m-title'>
-    <image src='../../images/sort.jpg'></image>
-    排行
+  <image src='../../images/sort.jpg'></image>
+  排行
 </view>
 <view class='m-sort'>
-    <view>
-        <image src='../../images/hot.jpg'></image>
-        热销商品
-    </view>
-    <view>
-        <image src='../../images/new.jpg'></image>
-        新品上市
-    </view>
-    <view>
-        <image src='../../images/price.jpg'></image>
-        价格排序
-    </view>
+  <view>
+    <image src='../../images/hot.jpg'></image>
+    热销商品
+  </view>
+  <view>
+    <image src='../../images/new.jpg'></image>
+    新品上市
+  </view>
+  <view>
+    <image src='../../images/price.jpg'></image>
+    价格排序
+  </view>
 </view>
+
+
 <view class='m-title'>
-    <image src='../../images/goods.jpg'></image>
-    海外精品
+  <image src='../../images/goods.jpg'></image>
+  海外精品
 </view>
 
 <view class='m-good'>
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text>  葡萄酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text>  葡萄酒</text>
+  </view>
 
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text>  清酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text>  清酒</text>
+  </view>
 
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text> 烈酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text> 烈酒</text>
+  </view>
 </view>
 <view class='m-title'>
-    <image src='../../images/in.jpg'></image>
-    国内供应
+  <image src='../../images/in.jpg'></image>
+  国内供应
 </view>
 
 <view class='m-good'>
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text>  葡萄酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text>  葡萄酒</text>
+  </view>
 
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text>  清酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text>  清酒</text>
+  </view>
 
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text> 烈酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text> 烈酒</text>
+  </view>
 
-        <view>
-        <image src='../../images/b1.jpg'></image>
-        <text>  葡萄酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text>  葡萄酒</text>
+  </view>
 
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text>  清酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text>  清酒</text>
+  </view>
 
-    <view>
-        <image src='../../images/b1.jpg'></image>
-        <text> 烈酒</text>
-    </view>
+  <view>
+    <image src='../../images/b1.jpg'></image>
+    <text> 烈酒</text>
+  </view>
 </view>

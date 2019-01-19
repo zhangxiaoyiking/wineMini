@@ -1,58 +1,23 @@
 <view class='s-list' bindtap='toDetail'>
-    <view class='s-item bline'>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
 
-        <view class='s-cont'>
-            <view class='s-title'>
-          经典传承碰撞创意灵感
-            </view>
-            <view class='s-content'>带给更多消费者极致的葡萄酒体验的愿景，发掘葡萄酒与美食之间味蕾的碰撞</view>
-            <view class='s-bar'>
-                <view bindtap='toggleFav'><view class='ico ico-star'></view>收藏</view>
-                <view bindtap='toggleLike'><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
-    </view>
-    <view class='s-item bline'>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
 
-        <view class='s-cont'>
-            <view class='s-title'>
-          经典传承碰撞创意灵感
-            </view>
-            <view class='s-content'>带给更多消费者极致的葡萄酒体验的愿景，发掘葡萄酒与美食之间味蕾的碰撞</view>
-            <view class='s-bar'>
-                <view><view class='ico ico-star'></view>收藏</view>
-                <view><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
+  <view wx:for="{{documentList}}" class='s-item bline'>
+    <view class='s-img'>
+      <image src='{{item.pic}}'></image>
     </view>
-        <view class='s-item bline'>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
 
-        <view class='s-cont'>
-            <view class='s-title'>
-          经典传承碰撞创意灵感
-            </view>
-            <view class='s-content'>带给更多消费者极致的葡萄酒体验的愿景，发掘葡萄酒与美食之间味蕾的碰撞</view>
-            <view class='s-bar'>
-                <view><view class='ico ico-star'></view>收藏</view>
-                <view><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
+    <view class='s-cont'>
+      <view class='s-title'>
+        {{item.title}}
+      </view>
+      <view class='s-content'>带给更多消费者极致的葡萄酒体验的愿景，发掘葡萄酒与美食之间味蕾的碰撞</view>
+      <view class='s-bar'>
+        <view bindtap='toggleFav'>
+          <view class='ico ico-star'></view>收藏</view>
+        <view bindtap='toggleLike'>
+          <view class='ico ico-like'></view>点赞</view>
+      </view>
     </view>
-        <view class='s-item '>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
+  </view>
 
-        <view class='s-cont'>
-            <view class='s-title'>
-          经典传承碰撞创意灵感
-            </view>
-            <view class='s-content'>带给更多消费者极致的葡萄酒体验的愿景，发掘葡萄酒与美食之间味蕾的碰撞</view>
-            <view class='s-bar'>
-                <view><view class='ico ico-star'></view>收藏</view>
-                <view><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
-    </view>
 </view>

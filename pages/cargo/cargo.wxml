@@ -1,57 +1,25 @@
 <view class='s-list' bindtap='toDetail'>
-    <view class='s-item bline'>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
 
-        <view class='s-cont'>
-            <view class='s-title'>
-                改变基因这档子事儿，加拿大威士忌早就已经干得不亦乐乎……
-            </view>
-            <view class='s-bar'>
-                <view><view class='ico ico-star'></view>收藏</view>
-                <view><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
+
+
+  <view wx:for="{{documentList}}"  class='s-item bline'>
+    <view class='s-img'>
+      <image src='{{item.pic}}'></image>
     </view>
 
-        <view class='s-item bline'>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
-
-        <view class='s-cont'>
-            <view class='s-title'>
-                改变基因这档子事儿，加拿大威士忌早就已经干得不亦乐乎……
-            </view>
-            <view class='s-bar'>
-                <view><view class='ico ico-star'></view>收藏</view>
-                <view><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
+    <view class='s-cont'>
+      <view class='s-title'>
+        {{item.title}}
+      </view>
+      <view class='s-bar'>
+        <view>
+          <view class='ico ico-star'></view>收藏</view>
+        <view>
+          <view class='ico ico-like'></view>点赞</view>
+      </view>
     </view>
+  </view>
 
-        <view class='s-item bline'>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
 
-        <view class='s-cont'>
-            <view class='s-title'>
-                改变基因这档子事儿，加拿大威士忌早就已经干得不亦乐乎……
-            </view>
-            <view class='s-bar'>
-                <view><view class='ico ico-star'></view>收藏</view>
-                <view><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
-    </view>
 
-        <view class='s-item bline'>
-        <view class='s-img'><image src='../../images/b1.jpg'></image></view>
-
-        <view class='s-cont'>
-            <view class='s-title'>
-                改变基因这档子事儿，加拿大威士忌早就已经干得不亦乐乎……
-            </view>
-            <view class='s-bar'>
-                <view><view class='ico ico-star'></view>收藏</view>
-                <view><view class='ico ico-like'></view>点赞</view>
-            </view>
-        </view>
-    </view>
 </view>

@@ -1,14 +1,15 @@
 export default (url, param, method) => {
-    let HOST = "../../api/" //mock设置空
-    let isMock = true
+    // let HOST = "../../api/" //mock设置空
+    // let isMock = true
+    let isMock = false;
 
     return new Promise((res, rej) => {
         if(isMock){
             res(require(`${url}`))
         }else{
             wx.request({
-                url: urls,
-                data: params,
+              url: 'https://pinle.jnjike.com/api/' + url,
+              data: param,
                 method: method || "GET",
                 success: (data) => {
                     res(data)

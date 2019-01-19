@@ -35,16 +35,16 @@
                 "text": "求学"
             },
             {
+              "pagePath": "pages/mall/mall",
+              "iconPath": "images/mall.png",
+              "selectedIconPath": "images/mall-sel.png",
+              "text": "严选"
+            },
+            {
                 "pagePath": "pages/courseOnline/courseOnline",
                 "iconPath": "images/online.png",
                 "selectedIconPath": "images/online-sel.png",
                 "text": "网课"
-            },
-            {
-                "pagePath": "pages/mall/mall",
-                "iconPath": "images/mall.png",
-                "selectedIconPath": "images/mall-sel.png",
-                "text": "严选"
             },
             {
                 "pagePath": "pages/member/member",

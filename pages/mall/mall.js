@@ -1,4 +1,5 @@
 // pages/mall/mall.js
+const app = getApp()
 Page({
 
     /**
@@ -26,7 +27,23 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
+      this.initIndex();
+    },
+    initIndex(){
 
+      //红人推荐
+      this.getRecommendList();
+
+
+    },
+    //红人推荐
+    getRecommendList(){
+      let params = {}
+      app.api.recommendList(params).then(res => {
+        this.setData({
+          recommendList: res.data
+        })
+      })
     },
 
     /**
